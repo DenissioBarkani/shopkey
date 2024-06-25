@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.buy__button {
+  width: 220px;
+  max-width: 100%;
+  display: inline-block;
+  text-align: center;
+
+  background-color: var(--blue-color); /* Синий фон */
+  color: white; /* Белый текст */
+  border: none; /* Без рамки */
+  border-radius: 0; /* Без закруглений */
+  padding: 12px 10px; /* Паддинг сверху и снизу 12px, по бокам 31px */
+  cursor: pointer; /* Курсор указателя */
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buy__button:hover {
+  background-color: var(--blue-dark--color); /* Темно-синий фон при наведении */
+}
+
+@media (max-width: 375px) {
+  .buy__button {
+    width: 100%;
+  }
+}
